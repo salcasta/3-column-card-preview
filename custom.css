@@ -4,6 +4,58 @@ body {
     place-content: center;
 }
 
+img {
+    width: 3em;
+    height: 2em;
+}
+
+.card {
+    width: 20rem;
+    height: 25rem;
+}
+
+.card-sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card-suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-luxury {
+    background-color:  hsl(179, 100%, 13%);
+}
+
+.card-title {
+    font-family: 'Big Shoulders Display', cursive, sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+.card-text {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.btn-sedan {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-suv {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-luxury {
+    color: hsl(179, 100%, 13%);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -12,6 +64,3 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-
-/* font-family: 'Big Shoulders Display', cursive;
-font-family: 'Lexend Deca', sans-serif; */
